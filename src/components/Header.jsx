@@ -14,7 +14,7 @@ export const Header = () => {
         {/* Hamburger Button (Mobile Only) */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="lg:hidden text-2xl text-blue-600 dark:text-indigo-400"
+          className="lg:hidden cursor-pointer text-2xl text-blue-600 dark:text-indigo-400"
         >
           ☰
         </button>
